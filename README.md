@@ -3,6 +3,10 @@
 
 # 📈 Stock Price Prediction Web Application 🚀
 
+![Screenshot 2024-10-11 183441](https://github.com/user-attachments/assets/8adffb5f-6af7-4a49-9c2f-defb43db2890)
+![Screenshot (63)](https://github.com/user-attachments/assets/6c1debc4-019c-48c2-87e3-96fd7d4c1405)
+![Screenshot 2024-10-11 183417](https://github.com/user-attachments/assets/ecaff7b0-6a13-4ac9-8231-9d6235db469b)
+
 ## 🌟 Overview
 
 Welcome to the **Stock Price Prediction Web Application**! This powerful platform uses **Long Short-Term Memory (LSTM)** networks to accurately predict stock prices based on historical data. With real-time updates and insightful analytics, this app is perfect for traders and investors looking to enhance their decision-making. 💹
