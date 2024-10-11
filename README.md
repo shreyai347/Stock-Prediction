@@ -122,4 +122,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Feel free to adjust any sections to fit your personal touch!
+Feel free to adjust any sections to fit your personal touch for project!
