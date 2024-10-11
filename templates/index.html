@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks! </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_index.css') }}">
+</head>
+<body>
+    <h1>Watch-OUT!! STOCKS</h1>
+
+    <div class="form-container">
+        <form action="/predict" method="POST">
+            <h2>Predict Next Day's Stock Price</h2>
+            <label for="symbol">Enter Stock Symbol:</label>
+            <input type="text" id="symbol" name="symbol" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        <form action="/today_price" method="POST">
+            <h2>Get Today's Stock Price</h2>
+            <label for="symbol_today">Enter Stock Symbol:</label>
+            <input type="text" id="symbol_today" name="symbol" required>
+            <button type="submit">Get Today's Price</button>
+        </form>
+
+        <form action="/historical" method="POST">
+            <h2>Get Historical Stock Data</h2>
+            <label for="symbol_historical">Enter Stock Symbol:</label>
+            <input type="text" id="symbol_historical" name="symbol" required>
+
+            <label for="start_date">Select Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required>
+
+            <label for="end_date">Select End Date:</label>
+            <input type="date" id="end_date" name="end_date" required>
+
+            <button type="submit">Get Historical Data</button>
+        </form>
+    </div>
+</body>
+</html>
