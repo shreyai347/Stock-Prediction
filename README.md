@@ -17,10 +17,7 @@ Welcome to the **Stock Price Prediction Web Application**! This powerful platfor
 
 - **📚 Historical Stock Price Data**: Retrieve and analyze historical stock price data for specific symbols and date ranges to uncover trends and patterns. 📊
 
-- **⏰ Market Hours Handling**:
-  - **Before 9:15 AM**: View predicted opening and closing prices for the day. 🌅
-  - **Between 9:15 AM and 4:30 PM**: See actual opening price along with predicted closing prices. 📉
-  - **After Market Hours**: Get actual opening and closing prices, including predicted values for your analysis. 🌙
+
 
 - **🎨 User-Friendly Interface**: Enjoy an attractive frontend with easy navigation, designed for a seamless user experience. ✨
 
