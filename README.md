@@ -4,6 +4,7 @@
 # 📈 Stock Price Prediction Web Application 🚀
 ![Screenshot 2024-10-11 183417](https://github.com/user-attachments/assets/ecaff7b0-6a13-4ac9-8231-9d6235db469b)
 
+https://youtu.be/FU5gDkXHlQg -- Checkout!! for demo
 
 
 
