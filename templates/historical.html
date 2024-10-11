@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Data</title>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_hist.css') }}">
+</head>
+<body>
+    <h1>Historical Data for {{ stock_symbol }}</h1>
+    <p>From: {{ start_date }} To: {{ end_date }}</p>
+
+    {% if error %}
+        <p>{{ error }}</p>
+    {% else %}
+        <img src="data:image/png;base64,{{ historical_chart_url }}" alt="Historical Data Chart">
+    {% endif %}
+</body>
+</html>
