@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Stock Price</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_today.css') }}">
+</head>
+<body>
+    <h1>Today's Stock Price</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% else %}
+        <h2>{{ stock_symbol }} - Today's Prices</h2>
+        <p><strong>Open Price:</strong> {{ today_open }}</p>
+        <p><strong>Close Price:</strong> {{ today_close }}</p>
+        <p><strong>Live Price:</strong> {{ live_price }}</p>
+
+        <h2>Today's Close Price Chart</h2>
+        <img src="data:image/png;base64,{{ close_chart_url }}" alt="Today's Close Price Chart">
+
+        <h2>Last 30 Days - Open & Close Prices</h2>
+        <img src="data:image/png;base64,{{ open_close_chart_url }}" alt="30 Days Open & Close Prices">
+    {% endif %}
+</body>
+</html>
