@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Stock Prices</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_predict.css') }}">
+</head>
+<body>
+    <h1>Predicted Stock Prices for {{ stock_symbol }}</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% else %}
+        <h2>Next Day's Predicted Prices</h2>
+        <p><strong>Predicted Opening Price:</strong> {{ next_day_open }}</p>
+        <p><strong>Predicted Closing Price:</strong> {{ next_day_close }}</p>
+    {% endif %}
+</body>
+</html>
