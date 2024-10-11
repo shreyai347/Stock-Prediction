@@ -1,0 +1,8 @@
+pandas
+numpy
+tensorflow
+keras
+yfinance
+joblib
+scikit-learn
+flask
