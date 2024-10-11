@@ -155,6 +155,124 @@ For any questions, feedback, or suggestions, please reach out to:
 Thank you for exploring the Stock Price Prediction Web Application! We hope it serves as a valuable resource in your stock trading journey. Happy investing!
 ```
 
+
+Sure! Here’s an enhanced README file for your stock price prediction web application with more details and plenty of emojis:
+
+---
+
+# 📊 Stock Price Prediction Web Application 🚀
+
+## 🌟 Overview
+
+Welcome to the **Stock Price Prediction Web Application**! This innovative platform leverages the power of **Long Short-Term Memory (LSTM)** networks to predict stock prices with precision. By harnessing historical stock data, our app not only predicts future prices but also provides real-time updates and valuable historical insights. Perfect for investors and data enthusiasts alike! 💹
+
+---
+
+## 🛠️ Features
+
+- **🔮 Predict Next Day's Stock Price**: Enter a stock symbol to get predictions for tomorrow's opening and closing prices. Perfect for planning your next investment!
+  
+- **📈 See Live Prices**: Access live stock prices during market hours, displaying both actual and predicted values for informed trading decisions.
+  
+- **📚 Historical Stock Price Data**: Retrieve historical stock price data for specific symbols and date ranges, giving you insights into past performance.
+  
+- **⏰ Market Hours Handling**: 
+  - **Before 9:15 AM**: View predicted opening and closing prices for the day. 🌅
+  - **Between 9:15 AM and 4:30 PM**: See actual opening price and predicted closing prices for your favorite stocks. 📊
+  - **After Market Hours**: Get actual opening and closing prices along with predicted values for insightful after-market analysis. 🌙
+
+- **🎨 User-Friendly Interface**: Enjoy an attractive and intuitive frontend with easy navigation and clearly defined buttons for a seamless user experience.
+
+---
+
+## 📥 Getting Started
+
+### ⚙️ Prerequisites
+
+Before you begin, ensure you have the following installed:
+- **Python 3.10 or higher** 🐍
+- **Flask** 🌐
+- **yfinance** 📈
+- **TensorFlow** 🧠
+- **Pandas** 🐼
+- **Numpy** ➗
+
+### 🏗️ Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shreyai347/stock-price-prediction.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd stock-price-prediction
+   ```
+3. **Install the required packages**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the Flask application**:
+   ```bash
+   python app.py
+   ```
+5. **Open your web browser** and go to `http://127.0.0.1:5000` to start exploring! 🌐
+
+---
+
+## 📂 Project Structure
+
+```
+stock-price-prediction/
+│
+├── app.py                   # Main Flask application 🌟
+├── templates/               # HTML templates for the web app 🖥️
+│   ├── index.html           # Home page 🏠
+│   ├── prediction.html      # Page for predicting stock prices 📉
+│   └── live_prices.html     # Page for displaying live prices 💵
+├── static/                  # Static files (CSS, images) 🖼️
+│   └── styles.css           # Custom styles for the application 🎨
+└── requirements.txt         # Required Python packages 📜
+```
+
+---
+
+## 📝 Usage
+
+1. **🔮 Predict Next Day Price**: Click the "Predict Next Day Price" button, enter the stock symbol, and receive predictions for tomorrow's prices!
+   
+2. **📈 See Live Prices**: Enter the stock symbol in the "See Live Prices" section to view real-time updates during market hours.
+   
+3. **📚 Historical Stock Price Data**: Provide the stock symbol and desired date range to fetch historical stock data, enabling you to make informed investment decisions. 🧮
+
+---
+
+## ⏰ Important Note
+
+- The application operates within the stock market hours of **9 AM to 4:15 PM** on weekdays. Requests made on weekends will indicate that the market is closed. 📅
+
+---
+
+## 📬 Contact
+
+For inquiries, feedback, or collaboration opportunities, feel free to reach out:
+- **📧 Email**: shreyashreya2322@gmail.com
+- **💼 LinkedIn**: [Shreya Nagarbawdi](https://www.linkedin.com/in/shreya-nagarbawdi)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! If you have suggestions or improvements, please open an issue or submit a pull request. Let's make this project even better together! 🌟
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 📝
+
+---
+
+Feel free to tweak any sections to align better with your style or add any additional information that you think is important!
 ### Customization Suggestions:
 - Replace placeholder links and details with your actual information (e.g., your GitHub username, email address).
 - Modify any sections as necessary to fit your specific project implementation or additional features.
