@@ -96,7 +96,9 @@ your_project/
 
 ## ⏰ Important Note
 
-- The application operates within the stock market hours of **9 AM to 4:15 PM** on weekdays. Requests made on weekends will indicate that the market is closed. 📅
+- **Required Libraries**: Ensure you have all the necessary libraries installed as listed in `requirements.txt`. This includes packages such as Flask, yfinance, TensorFlow, and others needed for the application to function correctly. 📚
+
+- **No Market Open/Close Handling**: The application does not handle specific market open and close times, but it provides real-time updates and predictions regardless of market hours. You can use the app to analyze and predict stock prices at any time! 🕒
 
 ---
 
